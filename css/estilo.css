@@ -1,5 +1,6 @@
 html, body, #home{
     height:100%;
+    overflow-x:hidden;
 }
 body{
     background:url(../img/capa.png),
@@ -74,6 +75,12 @@ nav.navbar-transparente{
 }
 .albuns{
     padding: 10px 0;
+}
+.rotacionar{
+    -ms-transform:rotate(30deg);/*IE9*/
+    -webkit-transform: rotate(30deg);/*Chrome,Safari,Opera*/
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 h1{
     font-weight: 900;
